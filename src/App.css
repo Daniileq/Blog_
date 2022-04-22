@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(211, 213, 215);
+}
+h1 {
+  color: #000;
+  margin: 70px 0 70px 0;
+  text-align: center;
+}
+.container {
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
+  width: 1060px;
+  margin: 0 auto;
+}
+.section_container {
+  text-align: center;
+  margin-bottom: 5px;
+  width: 265px;
+}
+.section_content {
+  background-color: aliceblue;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.section_button_go {
+  background-color: rgba(11, 78, 154, 0.45);
+  border-radius: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 107px;
+  padding-left: 107px;
+  border: 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.section_button_go:active {
+  background-color: aliceblue;
+  transition: 50ms;
+}
+/* .section_button_go:hover{
+  background-color: aliceblue;
+  transition: 100ms;
+
+} */
+
+.section_all_container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px 50px;
+}
+.button_plus {
+  margin-top: 30px;
+  margin-left: 75%;
+  background-color: rgba(11, 78, 154, 0.45);
+  padding: 10px 20px;
+  border: 1px solid rgba(38, 104, 210, 0.45);
+  margin-right: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.button_plus:active {
+  background-color: aliceblue;
+  transition: 50ms;
+}
+.button_back {
+  margin-top: 30px;
+  margin-left: 0%;
+  background-color: rgba(11, 78, 154, 0.45);
+  padding: 10px 20px;
+  border: 1px solid rgba(38, 104, 210, 0.45);
+  margin-right: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.button_back:active {
+  background-color: aliceblue;
+  transition: 50ms;
+}
